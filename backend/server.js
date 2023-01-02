@@ -60,7 +60,6 @@ app.post('/sendemail', async (req, res) => {
 
 app.get('/projects', async (req, res) => {
     const projects = await projectModal.find().sort({ zindex: -1 });
-    // console.log(projects);
     res.status(200).send({
         message: 'Hello from Ashish Portfolio!',
         projects
