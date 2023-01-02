@@ -4,7 +4,7 @@ document.querySelector(".form").addEventListener("submit", (e) => {
     let email = document.querySelector(".pEmail");
     let message = document.querySelector(".message");
     let subject = document.querySelector(".iSubject");
-    fetch("https://alternate-2k8j.onrender.com/sendemail", {
+    fetch("https://ashish-l65t.onrender.com/sendemail", {
         method: "POST",
         // mode: 'no-cors',
         body: JSON.stringify({
@@ -31,7 +31,7 @@ document.querySelector(".form").addEventListener("submit", (e) => {
 
 
 function fetchProject() {
-    fetch("http://localhost:5000/projects", {
+    fetch("https://ashish-l65t.onrender.com/projects", {
         method: "GET",
         headers: {
             "Content-type": "application/json; charset=UTF-8"
