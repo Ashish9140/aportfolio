@@ -389,7 +389,7 @@ h3.my-profession {
     position: relative;
 }
 
-.home-img::after {
+/* .home-img::after {
     content: '';
     position: absolute;
     height: 80px;
@@ -409,7 +409,7 @@ h3.my-profession {
     border-top: 10px solid var(--skin-color);
     left: 20px;
     top: -40px;
-}
+} */
 
 .home .home-img img {
     margin: auto;
