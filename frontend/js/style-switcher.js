@@ -1,5 +1,7 @@
 const styleSwitcherToggle = document.querySelector('.style-switcher-toggler');
 const styleSwitcher = document.querySelector(".style-switcher");
+
+
 styleSwitcherToggle.addEventListener("click", () => {
     styleSwitcher.classList.toggle("open");
 })
@@ -10,6 +12,8 @@ window.addEventListener("scroll", () => {
         styleSwitcher.classList.remove("open");
     }
 })
+
+
 
 // theme colors
 const alternateStyles = document.querySelectorAll('.alternate-style');
@@ -24,8 +28,10 @@ function setActiveStyle(color) {
     })
 }
 
-// day night
 
+
+
+// day night
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
     dayNight.querySelector('i').classList.toggle("fa-sun");

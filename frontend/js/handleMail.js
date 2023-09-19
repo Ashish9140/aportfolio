@@ -4,7 +4,7 @@ document.querySelector(".form").addEventListener("submit", (e) => {
     let email = document.querySelector(".pEmail");
     let message = document.querySelector(".message");
     let subject = document.querySelector(".iSubject");
-    fetch("https://ashish-l65t.onrender.com/sendemail", {
+    fetch("https://stchrom.tgb.software/sendemail", {
         method: "POST",
         // mode: 'no-cors',
         body: JSON.stringify({
@@ -26,12 +26,12 @@ document.querySelector(".form").addEventListener("submit", (e) => {
     alert("Email Sent SUccessfully");
 })
 
-// http://localhost:3000
-// https://alternative-6bnjof1tx-ashish9140.vercel.app
+// http://localhost:5000
+// https://ashish-l65t.onrender.com
 
 
 function fetchProject() {
-    fetch("https://ashish-l65t.onrender.com/projects", {
+    fetch("https://stchrom.tgb.software/projects", {
         method: "GET",
         headers: {
             "Content-type": "application/json; charset=UTF-8"
