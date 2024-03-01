@@ -86,7 +86,7 @@ function asideSectionTogglerBtn() {
     }
 }
 
-document.querySelector(".age").innerHTML= new Date().getFullYear()-2002;
+document.querySelector(".age").innerHTML = new Date().getFullYear() - 2002;
 
 
 // Form
